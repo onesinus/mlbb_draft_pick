@@ -1,0 +1,109 @@
+* {
+    overflow: hidden;
+}
+
+center.title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.BukanMain {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.card-header {
+    color: black;
+}
+
+.hero_img {
+    border-radius: 80%;
+    height: 10%;
+}
+
+.hero_img:hover {
+    cursor: pointer;
+}
+
+
+/* Important part */
+
+#ModalHero .modal-dialog {
+    overflow-y: initial !important;
+}
+
+#HeroTabs-1 {
+    overflow-y: auto;
+    height: 75vh;
+}
+
+#ModalHero .modal-content {
+    background: #648880;
+    background: linear-gradient(#f6f1d3, #648880 85%, #293f50);
+}
+
+#HeroTabs {
+    background: #648880;
+    background: linear-gradient( to bottom, #f6f1d3, #648880 85%, #293f50);
+}
+
+.fs-18 {
+    font-size: 18;
+}
+
+.fs-20 {
+    font-size: 20;
+}
+
+.fs-30 {
+    font-size: 30;
+}
+
+.putih {
+    color: white;
+}
+
+.hijau{
+    color: green;
+}
+
+.oren{
+    color: orange;
+}
+
+.biru{
+    color: blue;
+}
+
+.abu-abu{
+    color: indigo;
+}
+
+.kuning{
+    color: yellow;
+}
+
+
+.card-detail {
+    background-color: grey;
+    margin-top: -3%;
+}
+
+.core-item {
+    text-align: left;
+}
+
+.counter-hero {
+    text-align: left;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.text-tengah{
+	display: block; 
+	text-align:center; 
+}

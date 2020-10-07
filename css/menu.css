@@ -1,0 +1,85 @@
+.icon-menu, .find-team, .find-sparing, .find-turnamen, .find-joki, .trigger {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  color:white;
+  display:block;
+  font-size:1.5em;
+  width:100%;
+  height:100%;
+  line-height:2em;
+  border-radius:50%;
+}
+
+.find-team{
+  background-color: #00ACEE;
+}
+.find-sparing{
+  background-color: #3C5A98;
+}
+
+.find-turnamen{
+  background-color: #B73223;
+}
+
+.find-joki{
+  background-color: #A5ADAF;
+}
+
+.cn-wrapper {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border:0;
+}
+
+.cn-wrapper a{
+  color: deepPink;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cn-wrapper .trigger,
+.cn-wrapper li {
+  border-radius: 50%;
+  text-align: center;
+  width: 2.95em;
+  height: 2.95em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  border: none
+}
+
+.cn-wrapper .trigger {
+  background-color: #111;
+  z-index: 5;
+  cursor: pointer;
+  font-size:1em;
+}
+
+.cn-wrapper li.slideout:nth-child(1) {
+  -webkit-transform: translateY(10em);
+  transform: translateY(10em)
+}
+
+.cn-wrapper li.slideout:nth-child(2) {
+  -webkit-transform: translateY(8.6602540378em) translateX(5em);
+  transform: translateY(8.6602540378em) translateX(5em)
+}
+
+.cn-wrapper li.slideout:nth-child(3) {
+  -webkit-transform: translateY(5em) translateX(8.6602540378em);
+  transform: translateY(5em) translateX(8.6602540378em)
+}
+
+.cn-wrapper li.slideout:nth-child(4) {
+  -webkit-transform: translateX(10em);
+  transform: translateX(10em)
+}
